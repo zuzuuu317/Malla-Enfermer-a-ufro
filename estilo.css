@@ -1,1 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#curriculum {
+    padding: 20px;
+}
+
+.semester {
+    background: white;
+    margin-bottom: 15px;
+    border-left: 5px solid #0077b6;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.semester h2 {
+    color: #0077b6;
+}
+
+.course {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #e0e0e0;
+}
+
+.course.approved {
+    background: #a5d6a7; /* Verde claro */
+    border-color: #388e3c;
+    color: #2e7d32;
+}
+
+.course.locked {
+    background: #eeeeee;
+    color: #888;
+    cursor: not-allowed;
+}
+
+.course .prerequisites {
+    font-size: 0.8em;
+    color: gray;
+}
